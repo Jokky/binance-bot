@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "CommonJS",
+    "baseUrl": ".",
+    "outDir": "dist",
+    "allowJs": true,
+    "strictNullChecks": true,
+    "declaration": false,
+    "sourceMap": false,
+    "esModuleInterop": true,
+    "declarationMap": false,
+    "allowSyntheticDefaultImports": false,
+    "removeComments": true,
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": [
+    "src/**/*",
+  ],
+  "exclude": ["node_modules", "**/*.spec.ts"],
+}
